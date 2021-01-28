@@ -8,4 +8,4 @@ Rachel Filderman Capstone Presentation.pdf - PDF version of Tableau presentation
 
 Rachel Filderman Capstone Data - xls.xls - Excel workbook with data and preliminary data exploration
 
-Problem Statement and 
+Problem Statement and Data Dictionary - outlined problem statement and data dictionary related to Superstore dataset
