@@ -5,3 +5,7 @@ link to live workbook: https://prod-useast-b.online.tableau.com/t/raf2dh/views/R
 Rachel Filderman Capstone - Packaged Workbook.twbx - packaged Tableau workbook for capstone presentation
 
 Rachel Filderman Capstone Presentation.pdf - PDF version of Tableau presentation 
+
+Rachel Filderman Capstone Data - xls.xls - Excel workbook with data and preliminary data exploration
+
+Problem Statement and 
