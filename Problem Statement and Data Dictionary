@@ -1,14 +1,22 @@
 Problem Statement: 
 
-What factors are contributing to sales growth, but a simultaneous decline in profits? Further, are there common patterns contributing to negative profits that can be improved by taking learnings from high profit areas and applying them to low profit areas?
+What factors are contributing to sales growth, but a simultaneous decline in profits? Further, are there common patterns contributing to negative profits 
+that can be improved by taking learnings from high profit areas and applying them to low profit areas?
 
 Data Dictionary:
 
-In the Superstore dataset, 3 tables have been supplied  - Orders, Returns, and People. Since the Orders table is the main source of information, the Returns and People tables will be joined to provide additional information regarding returns and sales people, respectively, to lines in the Orders table. The Story of One Row analysis can be found in the corresponding workbook. 
+In the Superstore dataset, 3 tables have been supplied  - Orders, Returns, and People. Since the Orders table is the main source of information, the 
+Returns and People tables will be joined to provide additional information regarding returns and sales people, respectively, to lines in the Orders table. 
+The Story of One Row analysis can be found in the corresponding workbook. 
 
-Each entry in the Orders table represents an item in an order. An order number can appear in multiple rows if other details such as product id and category differ, and therefore order number is not unique to one row. However, an order number is unique to a customer name, so the customer name will never differ for one order number. Of note, a row can represent the purchase of multiple items with the same product id. 
+Each entry in the Orders table represents an item in an order. An order number can appear in multiple rows if other details such as product id and category 
+differ, and therefore order number is not unique to one row. However, an order number is unique to a customer name, so the customer name will never differ 
+for one order number. Of note, a row can represent the purchase of multiple items with the same product id. 
 
-The fields that will be most important to the analysis are profit margin, profit, and sales. However, since the problem statement seeks to answer which factors are contributing to a counterintuitive increase in sales and decrease in profit, other fields such as category, city, and discount will be analyzed as contributing forces to low profits. For example, if negative profits are correlated with higher discounts, a recommendation would be to revisit discount strategy and determine if discounts on certain items are bringing in enough sales on other full price items to compensate for the discount offered. 
+The fields that will be most important to the analysis are profit margin, profit, and sales. However, since the problem statement seeks to answer which 
+factors are contributing to a counterintuitive increase in sales and decrease in profit, other fields such as category, city, and discount will be analyzed 
+as contributing forces to low profits. For example, if negative profits are correlated with higher discounts, a recommendation would be to revisit discount 
+strategy and determine if discounts on certain items are bringing in enough sales on other full price items to compensate for the discount offered. 
 
 Data Preparation and Cleaning:
 
